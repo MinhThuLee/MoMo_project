@@ -1,4 +1,5 @@
-﻿CREATE DATABASE MoMo_project
+--DATA CLEANING--
+CREATE DATABASE MoMo_project
 
 GO 
 USE MoMo_project
