@@ -19,13 +19,13 @@ The objective of this analysis is to identify trends, patterns, and relationship
 
 - Create a staging table where I can work on and clean the data. This allows me to keep the raw data intact as a backup in case anything goes wrong.
 - TRANSACTIONS_DUP
-- Standardize missing data in Purchase_status column.
-- Change the date format.
-- The Amount column appears to be sorted in string order instead of numerical order, format Amount values and change into the data type into INT.
+  - Standardize missing data in Purchase_status column.
+  - Change the date format.
+  - The Amount column appears to be sorted in string order instead of numerical order, format Amount values and change into the data type into INT.
 - USER_INF_DUP
-- Delete duplicates in order_id column.
-- Checking the logic of first_tran_date column and correct it. Change data type of first_tran_date column.
-- Ensure the accuracy and consistency of data, specifically for the location and gender columns in the user table.
+   - Delete duplicates in order_id column.
+   - Checking the logic of first_tran_date column and correct it. Change data type of first_tran_date column.
+   - Ensure the accuracy and consistency of data, specifically for the location and gender columns in the user table.
 
 # THE ANALYSIS:
 ### Observations and insights:
